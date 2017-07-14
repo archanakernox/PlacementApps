@@ -45,38 +45,54 @@
 			<div class="panel panel-primary">
 				<div class="panel-heading">Primary Information</div>
 				<div class="panel-body">
-				   	<form action="">
+				   	<form class="form-horizontal" action="">
 				   		<div class="form-group">
-						    <label for="company">Company/Institute:</label>
+						    <label class="control-label col-md-4" for="company">Company/Institute:</label>
+						    <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="company">
+						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="firstname">First Name:</label>
+						    <label class="control-label col-md-4" for="firstname">First Name:</label>
+						     <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="firstname">
+						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="lastname">Last Name:</label>
+						    <label class="control-label col-md-4" for="lastname">Last Name:</label>
+						    <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="lastname">
+						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="mobile">Mobile Number:</label>
+						    <label class="control-label col-md-4" for="mobile">Mobile Number:</label>
+						    <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="mobile">
+						     </div>
 						</div>
 						<div class="form-group">
-						    <label for="office">Office Number:</label>
+						    <label class="control-label col-md-4"  for="office">Office Number:</label>
+						     <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="office">
+						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="email">Email ID / Username:</label>
+						    <label class="control-label col-md-4" for="email">Email ID / Username:</label>
+						    <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="email">
+						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="password">Password:</label>
+						    <label class="control-label col-md-4" for="password">Password:</label>
+						    <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="password">
+						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="retypepassword">Re-type Password:</label>
+						    <label class="control-label col-md-4" for="retypepassword">Re-type Password:</label>
+						    <div class="col-md-6">
 						    <input type="textbox" class="form-control" id="retypepassword">
+						    </div>
 						</div>
 						<div class="text-center">
 						<button type="submit" class="btn btn-primary">Submit</button>
